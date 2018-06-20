@@ -7,7 +7,15 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  []
+  [playlists = {
+  "country" => ["T Swift", "Jason Aldean", "carrie underwood"],
+  "pop" => ["ariana grande", "sam smith", "camila"],
+  "rap" => {
+    "Drake" => ["Upset", "God's Plan", "cleats"],
+    "Kanye" => ["Homecoming", "Lift Yourself", "Ye"],
+    "Nicki Minaj" => ["Chun Li", "Bed", "Anaconda"]
+  }
+}
 end
 
 # example city_info hash
